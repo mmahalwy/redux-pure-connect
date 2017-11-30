@@ -1,0 +1,41 @@
+{
+  "name": "redux-pure-connect",
+  "version": "1.0.0",
+  "description": "Helpers for making sure your connect arguments are pure",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "npm run jest",
+    "jest": "jest"
+  },
+  "jest": {
+    "verbose": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmahalwy/redux-pure-connect.git"
+  },
+  "keywords": [
+    "redux",
+    "pure",
+    "connect",
+    "mapStateToProps",
+    "select",
+    "selectors"
+  ],
+  "author": "Mohamed El Mahallawy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmahalwy/redux-pure-connect/issues"
+  },
+  "homepage": "https://github.com/mmahalwy/redux-pure-connect#readme",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.32",
+    "@babel/preset-env": "^7.0.0-beta.32",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^21.2.0",
+    "jest": "^21.2.1",
+    "react-redux": "^5.0.6",
+    "regenerator-runtime": "^0.11.0"
+  }
+}
